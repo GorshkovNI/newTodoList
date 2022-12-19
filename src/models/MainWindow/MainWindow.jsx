@@ -6,7 +6,7 @@ import styles from './MainWindow.module.css';
 export const MainWindow = () => {
   return (
     <div className={styles._}>
-      <H1>Daily To Do List</H1>
+      <H1 className={styles.title}>Daily To Do List</H1>
       <Input />
     </div>
   );
