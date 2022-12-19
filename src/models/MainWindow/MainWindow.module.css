@@ -2,4 +2,18 @@
     margin-left: 50%;
     margin-top: 7rem;
     transform: translateX(-40%);
+    height: 100%;
+    overflow: hidden;
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+
+.body{
+    margin-top: 3.45rem;
+}
+
+.footer{
+    margin-top: 2rem;
 }
