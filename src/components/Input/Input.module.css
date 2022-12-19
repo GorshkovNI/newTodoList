@@ -1,0 +1,69 @@
+._{
+    width: 37.5rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 0.5rem 0 0.5rem;
+    height: 3.625rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 0.5rem;
+}
+
+.input{
+    height: 1rem;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga' off;
+    color: black;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.input:active{
+    outline: none;
+}
+
+.input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga' off;
+    color: #B1BACB;
+}
+
+.button{
+    width: 5.25rem;
+    height: 2.75rem;
+    border: 1px solid #2D70FD;
+    border-radius: 0.25rem;
+    background-color: #2D70FD;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #2760db;
+}
