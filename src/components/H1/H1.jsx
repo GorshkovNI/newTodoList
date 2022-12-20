@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './H1.module.css';
-import cn from 'classnames'
+
+import cn from 'classnames';
 
 export const H1 = ({ children, className }) => {
+  const h1ClassNames = cn(styles._, className);
 
-  const h1ClassName = cn(styles._, className)
-
-  return <div className={h1ClassName}>{children}</div>;
+  return <div className={h1ClassNames}>{children}</div>;
 };
